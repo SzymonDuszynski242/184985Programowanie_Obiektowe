@@ -1,0 +1,20 @@
+Klasa: Student
+Stan: imie, nazwisko, numerIndeksu
+Odpowiedzialności: przechowywanie danych studenta
+
+Klasa: Wykladowca
+Stan: imie, nazwisko, tytulNaukowy
+Odpowiedzialności: prowadzenie zajęć, wystawianie ocen
+
+Klasa: Przedmiot
+Stan: nazwa, punktyECTS
+Odpowiedzialności: opis konkretnego kursu na studiach
+
+Klasa: GrupaZajeciowa
+Stan: przedmiot, wykladowca, listaStudentow
+Odpowiedzialności: łączenie studentów z przedmiotem i prowadzącym
+
+1. GrupaZajeciowa musi wiedzieć o istnieniu Przedmiotu, Wykładowcy i konkretnych Studentach (żeby wiedzieć kto jest zapisany, z czego i u kogo).
+2. nie
+3. Pomijam informacje: rozmiar buta studenta, kolor samochodu wykładowcy, dokładny adres zameldowania
+4. Te dane są kompletnie niepotrzebne z punktu widzenia obsługi toku studiów i planowania zajęć.

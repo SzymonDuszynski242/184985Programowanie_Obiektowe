@@ -1,0 +1,18 @@
+Klasa: Ksiazka
+Stan: tytul, autor, isbn, rokWydania
+
+Odpowiedzialności:
+przechowywanie informacji o danej książce
+
+Klasa: Czytelnik
+Stan: imie, nazwisko, numerKarty
+Odpowiedzialności:
+identyfikacja osoby w systemie biblioteki
+
+Klasa: Wypozyczenie
+Stan:ksiazka, czytelnik, dataWypozyczenia, terminZwrotu
+Odpowiedzialności:
+powiązanie konkretnej książki z czytelnikiem
+śledzenie czasu wypożyczenia i terminu oddania
+Zależności:
+Obiekt Wypozyczenie musi bezpośrednio korzystać z obiektów Ksiazka i Czytelnik (przechowuje je w swoim stanie żeby wiedzieć kto i co wypożyczył).

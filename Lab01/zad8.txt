@@ -1,0 +1,10 @@
+A. Wypożyczalnia samochodów
+Stan: nrRejestracyjny, cenaZaDobe, statusWypozyczenia, klasaSamochodu
+
+B. Gra wyścigowa
+Stan: predkoscMax, przyspieszenie, model3D, obecnaPredkosc
+
+C. Warsztat samochodowy
+Stan: VIN, opisUsterki, historiaNapraw, daneWlasciciela
+
+nie istnieje jedna poprawna klasa bo w każdym z tych systemów ważne są zupełnie inne cechy samochodu. W wyścigówce nikt nie sprawdzi VIN ani cene za dobę, a w wypożyczalni nie potrzeba informacji o np modelu 3D. Robienie jednej klasy ze wszystkimi możliwymi cechami nie ma sensu bo większość zmiennych byłaby pusta
