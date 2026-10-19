@@ -1,0 +1,9 @@
+wyniki:
+20
+20
+30
+true
+false
+
+a i b -> obiekt value: 20
+c -> inny obiekt value 30

@@ -1,0 +1,3 @@
+Program się nie kompiluje bo kompilator szuka konstruktora Product(String, double), który jest używany w klasie Main (new Product("Monitor", 1200);) a klasa Product nie posiada takiego konstruktora.
+
+this to referencja do bieżącego obiektu, bez użycia this instrukcja name = name; przypisuje wartość parametru do samego siebie
