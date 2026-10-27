@@ -1,0 +1,10 @@
+Statyczne pole
+Blok statyczny
+--- Tworzenie pierwszego obiektu ---
+Pole instancji
+Blok instancyjny
+Konstruktor
+--- Tworzenie drugiego obiektu ---
+Pole instancji
+Blok instancyjny
+Konstruktor

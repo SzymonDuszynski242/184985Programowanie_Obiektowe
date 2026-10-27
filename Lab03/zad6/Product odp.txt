@@ -1,0 +1,3 @@
+-powinno być static bo wartość nie jest cechą każdego obiektu z osobna
+-powinno być final bo liimit nie może być zmieniony podczas działanai programu
+-nie powinno być final bo przy tworzeniu każdego obiektu wartość zmienia sie

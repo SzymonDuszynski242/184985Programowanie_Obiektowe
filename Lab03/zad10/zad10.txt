@@ -1,0 +1,7 @@
+studentName w klasie Student: Instancyjny bo każdy student ma własne imię.
+numberOfStudents w klasie Student: Statyczny bo pzrechowuje łączną liczbę wszystkich utworzonych obiektów studentów jest wspólna dla całej klasy.
+PI w klasie matematycznej: Statyczny wartość stała, uniwersalna i nie zależy od konkretnego obiektu.
+balance w klasie BankAccount: Instancyjny każde konto bankowe ma własne saldo.
+calculateVat(double price) w bezstanowej klasie pomocniczej: Statyczny metoda nie wymaga dostępu do stanu obiektu, działa tylko na podanym argumencie.
+carMileage w klasie Car: Instancyjny każdy samochód ma własny przebieg.
+MAX_LOGIN_ATTEMPTS w klasie LoginPolicy: Statycznyz limit jest z góry ustaloną stałą wartością obowiązującą globalnie w danej polityce 
