@@ -1,0 +1,3 @@
+1. firstName ma modyfikator private więc jest dostępny tylko dla klasy Person
+2. lastName jest dostępne bo ma modyfikator protected który pozwala na dostęp wszystkim podklasom dziedziczącym
+3. Protected powinno się używać tylko kiedy jest potrzebny dostęp podklasom, nie powinno udostępniać się dostępu kiedy nie jest to wymagane
