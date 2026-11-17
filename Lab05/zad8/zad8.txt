@@ -1,0 +1,1 @@
+Nowy kod jest bardziej rozszerzalny ponieważ przy dodaniu nowych animal nie trzeba robić żadnych zmian w kodzie
